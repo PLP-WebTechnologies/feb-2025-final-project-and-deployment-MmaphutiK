@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ShopSmart | Products</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <header>
+    <h1>ShopSmart</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="cart.html">Cart</a></li>
+       
+      </ul>
+    </nav>
+
+  </header>
+
+  <main>
+    <h2>Our Products</h2>
+    <section class="products">
+      
+      <div class="product-grid">
+     
+        <!-- Product Cards -->
+        <div class="product-card">
+          <img src="https://images.pexels.com/photos/437037/pexels-photo-437037.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Smart Watch">
+          <h3>Smart Watch</h3>
+          <p>$49.99</p>
+          <button onclick="addToCart('Smart Watch')">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+          <img src="https://images.pexels.com/photos/205926/pexels-photo-205926.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Wireless Headphones">
+          <h3>Wireless Headphones</h3>
+          <p>$79.99</p>
+          <button onclick="addToCart('Wireless Headphones')">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+          <img src="https://images.pexels.com/photos/18589085/pexels-photo-18589085/free-photo-of-jbl-wireless-loudspeaker.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Bluetooth Speaker">
+          <h3>Bluetooth Speaker</h3>
+          <p>$35.00</p>
+          <button onclick="addToCart('Bluetooth Speaker')">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+          <img src="https://images.pexels.com/photos/1029757/pexels-photo-1029757.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Portable Charger">
+          <h3>Computer Monitor</h3>
+          <p>$25.99</p>
+          <button onclick="addToCart('Portable Charger')">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+          <img src="https://images.pexels.com/photos/26891720/pexels-photo-26891720/free-photo-of-home-office-studio-equipment.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Laptop Stand">
+          <h3>Laptop Stand</h3>
+          <p>$29.95</p>
+          <button onclick="addToCart('Laptop Stand')">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+          <img src="https://images.pexels.com/photos/15519510/pexels-photo-15519510/free-photo-of-lamp-light-in-darkness.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="LED Desk Lamp">
+          <h3>LED Desk Lamp</h3>
+          <p>$19.99</p>
+          <button onclick="addToCart('LED Desk Lamp')">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+          <img src="https://images.pexels.com/photos/31915115/pexels-photo-31915115/free-photo-of-sleek-black-wireless-mouse-on-yellow-background.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Gaming Mouse">
+          <h3>Gaming Mouse</h3>
+          <p>R499.99</p>
+          <button onclick="addToCart('Gaming Mouse')">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+          <img src="https://images.pexels.com/photos/7742583/pexels-photo-7742583.jpeg?auto=compress&cs=tinysrgb&w=600" alt="USB-C Hub">
+          <h3>USB-C Hub</h3>
+          <p>1999.00</p>
+          <button onclick="addToCart('USB-C Hub')">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+          <img src="https://images.pexels.com/photos/267394/pexels-photo-267394.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Fitness Tracker">
+          <h3>Fitness Tracker</h3>
+          <p>R1560.50</p>
+          <button onclick="addToCart('Fitness Tracker')">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+          <img src="https://images.pexels.com/photos/22491144/pexels-photo-22491144/free-photo-of-smart-home-devices.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Smart Bulb">
+          <h3>Smart Bulb</h3>
+          <p>R300.99</p>
+          <button onclick="addToCart('Smart Bulb')">Add to Cart</button>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> ShopSmart</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
